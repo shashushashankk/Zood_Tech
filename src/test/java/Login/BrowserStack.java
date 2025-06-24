@@ -25,7 +25,7 @@ public class BrowserStack {
         bstackOptions.put("sessionName", "Login Test");
         caps.setCapability("bstack:options", bstackOptions);
         AndroidDriver driver = new AndroidDriver(new URL("http://bharath_OWBVv1:pdiqjyHbRJgqPET6JpsQ@hub.browserstack.com/wd/hub"), caps);
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 
 }
