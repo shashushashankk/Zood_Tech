@@ -1,0 +1,77 @@
+2025-06-22 19:00:00.805 [main] DEBUG automation.logs - LogTest.logTest(LogTest.java:14) - Debug log
+2025-06-22 19:00:00.805 [main] DEBUG automation.logs - LogTest.logTest(LogTest.java:14) - Debug log
+2025-06-22 19:00:00.809 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
+2025-06-22 19:00:00.809 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
+2025-06-22 19:00:00.811 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
+2025-06-22 19:00:00.811 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
+2025-06-22 19:00:00.812 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
+2025-06-22 19:00:00.812 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
+2025-06-22 19:00:50.828 [main] DEBUG automation.logs - LogTest.logTest(LogTest.java:14) - Debug log
+2025-06-22 19:00:50.835 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
+2025-06-22 19:00:50.836 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
+2025-06-22 19:00:50.837 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
+2025-06-22 19:03:03.438 [main] DEBUG automation.logs - LogTest.logTest(LogTest.java:14) - Debug log
+2025-06-22 19:03:03.440 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
+2025-06-22 19:03:03.441 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
+2025-06-22 19:03:03.442 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
+2025-06-22 21:15:37.675 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:15:37.769 [main] DEBUG automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:14) - Debug log
+2025-06-22 21:15:37.770 [main] INFO  automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:15) - Info log
+2025-06-22 21:15:37.770 [main] WARN  automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:16) - Warn log
+2025-06-22 21:15:37.770 [main] ERROR automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:17) - error  log
+2025-06-22 21:15:37.771 [main] FATAL automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:18) - fatal log
+2025-06-22 21:15:44.901 [main] INFO  automation.logs - BaseClass.closeApp(BaseClass.java:18) - App closed successfully
+2025-06-22 21:17:14.190 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:17:19.594 [main] INFO  automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:19) - Navigated to Country screen
+2025-06-22 21:17:32.773 [main] INFO  automation.logs - LoginNegetive.validatePhoneNumber(LoginNegetive.java:28) - Language selected and navigated to Educational screen
+2025-06-22 21:17:46.695 [main] INFO  automation.logs - BaseClassNonLogin.closeApp(BaseClassNonLogin.java:28) - App closed successfully
+2025-06-22 21:21:11.233 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:25:58.957 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:26:07.029 [main] INFO  automation.logs - Listners.onTestFailure(Listners.java:28) - Screenshot captured successfully C:\Users\ER\IdeaProjects\ZOOD_Tech\.\src\main\Resource\Screenshots\screenshot 22-06-2025 21:26:06.7392.png
+2025-06-22 21:26:07.031 [main] ERROR automation.logs - Listners.onTestFailure(Listners.java:30) - Failed to execute validatePhoneNumber Illegal char <:> at index 56: .\src\main\Resource\Screenshots\screenshot 22-06-2025 21:26:05.4814.png
+2025-06-22 21:26:07.818 [main] INFO  automation.logs - BaseClassNonLogin.closeApp(BaseClassNonLogin.java:28) - App closed successfully
+2025-06-22 21:28:27.321 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:28:33.099 [main] INFO  automation.logs - Listners.onTestFailure(Listners.java:28) - Screenshot captured successfully C:\Users\ER\IdeaProjects\ZOOD_Tech\.\src\main\Resource\Screenshots\screenshot 22-06-2025_21-28-32-6497.png
+2025-06-22 21:28:33.101 [main] ERROR automation.logs - Listners.onTestFailure(Listners.java:30) - Failed to execute validatePhoneNumber androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d4a281b9-6e41-406c-b8d6-e2114d573a16, isElementDisplayed {id=00000000-0000-0154-ffff-ffff00000008}]
+Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.zoodel.kz.activities.Ac..., appPackage: com.zoodel.kz.staging_main, autoGrantPermissions: true, automationName: uiAutomator2, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (d4a281b9-6e41-406c-b8d6-e2114d573a16)] -> xpath: //android.widget.TextView[contains(@text,Uzbekistan)]/..]
+Session ID: d4a281b9-6e41-406c-b8d6-e2114d573a16
+2025-06-22 21:28:34.070 [main] INFO  automation.logs - BaseClassNonLogin.closeApp(BaseClassNonLogin.java:28) - App closed successfully
+2025-06-22 21:32:52.939 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:33:00.300 [main] INFO  automation.logs - Listners.onTestFailure(Listners.java:28) - Screenshot captured successfully C:\Users\ER\IdeaProjects\ZOOD_Tech\.\src\main\resources\Screenshots\screenshot 22-06-2025_21-32-59-0540.png
+2025-06-22 21:33:00.303 [main] ERROR automation.logs - Listners.onTestFailure(Listners.java:30) - Failed to execute validatePhoneNumber The element 'By.xpath: //android.widget.TextView[contains(@text,Uzbekistan)]/..' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [754a5e19-602b-4dfd-9e6b-0efe98ba362b, isElementDisplayed {id=00000000-0000-015f-ffff-ffff00000008}]
+Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.zoodel.kz.activities.Ac..., appPackage: com.zoodel.kz.staging_main, autoGrantPermissions: true, automationName: uiAutomator2, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (754a5e19-602b-4dfd-9e6b-0efe98ba362b)] -> xpath: //android.widget.TextView[contains(@text,Uzbekistan)]/..]
+Session ID: 754a5e19-602b-4dfd-9e6b-0efe98ba362b
+2025-06-22 21:33:01.583 [main] INFO  automation.logs - BaseClassNonLogin.closeApp(BaseClassNonLogin.java:28) - App closed successfully
+2025-06-22 21:41:28.999 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:41:36.080 [main] INFO  automation.logs - Listners.onTestFailure(Listners.java:28) - Screenshot captured successfully C:\Users\ER\IdeaProjects\ZOOD_Tech\.\src\main\resources\Screenshots\screenshot 22-06-2025_21-41-34-2844.png
+2025-06-22 21:41:36.083 [main] ERROR automation.logs - Listners.onTestFailure(Listners.java:30) - Failed to execute validatePhoneNumber androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ed1b667a-69b4-4dc3-acb4-f87d7acff49f, isElementDisplayed {id=00000000-0000-016a-ffff-ffff00000008}]
+Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.zoodel.kz.activities.Ac..., appPackage: com.zoodel.kz.staging_main, autoGrantPermissions: true, automationName: uiAutomator2, noReset: false, platformName: ANDROID}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 63, appium:takesScreenshot: true, appium:viewportRect: {height: 2337, left: 0, top: 63, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (ed1b667a-69b4-4dc3-acb4-f87d7acff49f)] -> xpath: //android.widget.TextView[contains(@text,Uzbekistan)]/..]
+Session ID: ed1b667a-69b4-4dc3-acb4-f87d7acff49f
+2025-06-22 21:41:37.101 [main] INFO  automation.logs - BaseClassNonLogin.closeApp(BaseClassNonLogin.java:28) - App closed successfully
+2025-06-22 21:52:15.797 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:52:16.043 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:28) - Application launched successfully
+2025-06-22 21:52:16.573 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:31) - Failed to launch the App. Reason is Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. 
+Host info: host: 'DESKTOP-OH412US', ip: '192.168.1.12'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:noReset: false, appium:platformName: android, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:noReset: false, appium:platformName: android, platformName: ANDROID}
