@@ -1,0 +1,54 @@
+pipeline {
+  agent any
+
+  triggers {
+    cron('H 1 * * *')  // Runs daily at 1 AM, staggered start
+  }
+
+  tools {
+    maven 'Maven_3.91.10'     // Jenkins tool config: Maven
+    jdk 'JDK_21'            // Jenkins tool config: JDK 21
+  }
+
+  environment {
+    REPORT_DIR = 'test-output'
+    REPORT_NAME = 'ExtentReport.html'
+    PROFILE = 'smoke'
+  }
+
+  stages {
+    stage('Checkout Code') {
+      steps {
+        git branch: 'master', url: 'https://github.com/shashushashankk/Zood_Tech.git'
+      }
+    }
+
+    stage('Build & Run Tests') {
+      steps {
+        sh 'mvn clean test -P${PROFILE}'
+      }
+    }
+
+    stage('Publish Extent Report') {
+      steps {
+        publishHTML([
+          allowMissing: false,
+          alwaysLinkToLastBuild: true,
+          keepAll: true,
+          reportDir: "${REPORT_DIR}",
+          reportFiles: "${REPORT_NAME}",
+          reportName: 'Test Execution Report'
+        ])
+      }
+    }
+  }
+
+  post {
+    failure {
+      echo '🚨 Test run failed!'
+    }
+    success {
+      echo '✅ Tests completed successfully!'
+    }
+  }
+}
