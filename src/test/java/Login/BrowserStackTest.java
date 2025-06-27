@@ -10,7 +10,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BrowserStack {
+public class BrowserStackTest {
     @Test
     void launchAppBrowserStack() throws MalformedURLException, InterruptedException {
         DesiredCapabilities caps = new DesiredCapabilities();

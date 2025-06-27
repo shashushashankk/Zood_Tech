@@ -1,12 +1,15 @@
 package Login;
 
 import com.zoodel.Generic.BaseClassNonLogin;
+import org.apache.commons.math3.optim.nonlinear.scalar.LineSearch;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-public class LoginNegetive extends BaseClassNonLogin {
+@Listeners(com.zoodel.Generic.Listners.class)
+public class LoginNegetiveTest extends BaseClassNonLogin {
     @Test
     void validatePhoneNumber() {
         WebElement countryOption = baseScreen.countryScreen.getCountryOption("Uzbekistan");

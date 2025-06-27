@@ -27,10 +27,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class LoginPositive extends GlobalVariable {
-    {
-        log = LogManager.getLogger(this.getClass());
-    }
+public class LoginPositiveTest extends GlobalVariable {
+
 
     //    @Test
     void userAbleToLoginTest() throws MalformedURLException {
