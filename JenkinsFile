@@ -19,7 +19,7 @@ pipeline {
   stages {
     stage('Checkout') {
         steps {
-            git 'https://github.com/user/project.git'
+            git 'https://github.com/shashushashankk/Zood_Tech.git'
         }
     }
 
