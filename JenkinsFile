@@ -6,8 +6,8 @@ pipeline {
   }
 
   tools {
-    maven 'Maven_3.9.10'     // Jenkins tool config: Maven
-    jdk 'JDK_21'            // Jenkins tool config: JDK 21
+    maven 'MAVEN_HOME'     // Jenkins tool config: Maven
+    jdk 'JAVA_HOME'            // Jenkins tool config: JDK 21
   }
 
   environment {
@@ -31,7 +31,7 @@ pipeline {
 
     stage('Test') {
         steps {
-             'mvn test -Psmoke'
+             sh 'mvn test -Psmoke'
         }
     }
 
