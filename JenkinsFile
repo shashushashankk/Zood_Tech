@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   triggers {
-    cron('H 1 * * *')  // Runs daily at 1 AM, staggered start
+    cron('10 23 * * *')  // Runs daily at 1 AM, staggered start
   }
 
   tools {
@@ -65,3 +65,10 @@ pipeline {
 //     }
 //   }
 }
+
+// Field	Description	Example
+//    MINUTE	0–59	0
+//    HOUR	0–23	10
+//    DOM	Day of month 1–31	*
+//    MONTH	1–12 or JAN–DEC	*
+//    DOW	0–7 or SUN–SAT	1-5 (Mon–Fri)
