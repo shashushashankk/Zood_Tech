@@ -6,7 +6,7 @@ pipeline {
   }
 
   tools {
-    maven 'Maven_3.91.10'     // Jenkins tool config: Maven
+    maven 'Maven_3.9.10'     // Jenkins tool config: Maven
     jdk 'JDK_21'            // Jenkins tool config: JDK 21
   }
 
@@ -17,16 +17,22 @@ pipeline {
   }
 
   stages {
-    stage('Checkout Code') {
-      steps {
-        git branch: 'master', url: 'https://github.com/shashushashankk/Zood_Tech.git'
-      }
+    stage('Checkout') {
+        steps {
+            git 'https://github.com/user/project.git'
+        }
     }
 
-    stage('Build & Run Tests') {
-      steps {
-        sh 'mvn clean test -P${PROFILE}'
-      }
+    stage('Build') {
+        steps {
+            sh 'mvn clean compile'
+        }
+    }
+
+    stage('Test') {
+        steps {
+             'mvn test -Psmoke'
+        }
     }
 
     stage('Publish Extent Report') {
@@ -44,11 +50,18 @@ pipeline {
   }
 
   post {
-    failure {
-      echo '🚨 Test run failed!'
-    }
-    success {
-      echo '✅ Tests completed successfully!'
+    always {
+        junit '**/target/surefire-reports/*.xml'
     }
   }
+
+
+//   post {
+//     failure {
+//       echo '🚨 Test run failed!'
+//     }
+//     success {
+//       echo '✅ Tests completed successfully!'
+//     }
+//   }
 }

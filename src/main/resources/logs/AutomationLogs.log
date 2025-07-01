@@ -231,3 +231,14 @@ Driver info: driver.version: RemoteWebDriver
 2025-06-27 10:59:17.375 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
 2025-06-27 10:59:17.375 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
 2025-06-27 10:59:17.376 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
+2025-07-01 21:34:05.540 [main] INFO  automation.logs - LaunchApp.launchZoodelApp(LaunchApp.java:31) - Failed to launch the App. Reason is Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-OH412US', ip: '192.168.1.12'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:noReset: false, appium:platformName: android, platformName: ANDROID}]}]
+Capabilities {appium:appActivity: com.zoodel.kz.activities.Ac..., appium:appPackage: com.zoodel.kz.staging_main, appium:autoGrantPermissions: true, appium:automationName: uiAutomator2, appium:noReset: false, appium:platformName: android, platformName: ANDROID}
+2025-07-01 21:34:05.792 [main] DEBUG automation.logs - LogTest.logTest(LogTest.java:14) - Debug log
+2025-07-01 21:34:05.793 [main] INFO  automation.logs - LogTest.logTest(LogTest.java:15) - info log
+2025-07-01 21:34:05.793 [main] FATAL automation.logs - LogTest.logTest(LogTest.java:16) - fatal log
+2025-07-01 21:34:05.793 [main] ERROR automation.logs - LogTest.logTest(LogTest.java:17) - error log
