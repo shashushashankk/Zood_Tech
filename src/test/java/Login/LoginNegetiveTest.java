@@ -39,7 +39,7 @@ public class LoginNegetiveTest extends BaseClassNonLogin {
         softAssert.assertTrue(phoneNumberTextfield.isEnabled());
         softAssert.assertAll();
     }
-    @Test(dependsOnMethods = "validatePhoneNumber")
+    @Test(dependsOnMethods = "validatePhoneNumber",alwaysRun = true)
     void emailAndPasswordTextfield(){
         WebElement loginWithEmailButton = baseScreen.loginScreen.getLoginWithEmailButton();
         wait.until(ExpectedConditions.elementToBeClickable(loginWithEmailButton));
